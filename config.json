@@ -2,14 +2,14 @@
     "prefix": "/",
     "owner": "Jr Busaco",
     "apiOptions": {
-        "forceLogin": false,
+        "forceLogin": true,
         "selfListen": false,
-        "autoReconnect": false,
-        "updatePresence": false,
+        "autoReconnect": true,
+        "updatePresence": true,
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
         "autoMarkDelivery": false,
         "autoMarkRead": false,
-        "online": false,
+        "online": true,
         "listenEvents": true
     },
     "adminBot": [
