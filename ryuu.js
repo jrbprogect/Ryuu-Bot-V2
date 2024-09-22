@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
-const login = require('./unofficial-fca/index.js');
-const { convertToGothic } = require('./utils/fontUtils.js');
+const login = require('./unofficial-fca/index');
+const { convertToGothic } = require('./utils/fontUtils');
 const cron = require('node-cron');
-const autopost = require('./handler/autopost.js');
+const autopost = require('./handler/autopost');
 
 global.config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
 global.prefix = global.config.prefix;
